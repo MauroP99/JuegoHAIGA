@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Juego Ortográfico</title>
+		<link rel="stylesheet" href="estilo.css">
+	  </head>
+	  <body>
+    	<div class="container">
+      <div class="question">
+        <p></p>
+      </div>
+      <div class="answer">
+        <input type="text" id="answer" placeholder="Escribe tu respuesta aquí">
+        <button id="submit" data-correct=""></button>
+        <button id="next" disabled>Siguiente pregunta</button>
+      </div>
+      <div class="message" style="display: none;">
+        <p id="message"></p>
+      </div>
+    </div>
+
+    <script src="juego.js"></script>
+  </body>
+</html>
